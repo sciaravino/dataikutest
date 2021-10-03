@@ -59,11 +59,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 0,
+    "versionNumber": 1,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1633225853710
+    "lastModifiedOn": 1633226578819
   },
   "creationTag": {
     "versionNumber": 0,
@@ -101,14 +101,6 @@
       {
         "name": "VALUE",
         "type": "double"
-      },
-      {
-        "name": "REASON",
-        "type": "string"
-      },
-      {
-        "name": "JOB",
-        "type": "string"
       },
       {
         "name": "YOJ",
