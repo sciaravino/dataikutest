@@ -126,6 +126,7 @@
   },
   "name": "Test1",
   "projectStatus": "Sandbox",
+  "imgPattern": 8,
   "metrics": {
     "probes": [],
     "engineConfig": {
@@ -180,6 +181,13 @@
       "checks": []
     }
   },
+  "versionTag": {
+    "versionNumber": 0,
+    "lastModifiedBy": {
+      "login": "admin"
+    },
+    "lastModifiedOn": 1633225125298
+  },
   "creationTag": {
     "versionNumber": 0,
     "lastModifiedBy": {
@@ -211,7 +219,7 @@
             "stateChangedOn": 0
           },
           {
-            "done": false,
+            "done": true,
             "text": "Import your [first dataset](projects/TEST1/datasets/new/)",
             "createdOn": 1633222785948,
             "createdBy": "admin",
