@@ -41,7 +41,8 @@
         "columns": [
           "DEBTINC",
           "MORTDUE",
-          "VALUE"
+          "VALUE",
+          "CLAGE"
         ],
         "appliesTo": "COLUMNS"
       },
