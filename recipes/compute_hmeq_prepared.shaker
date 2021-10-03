@@ -26,8 +26,46 @@
     "autoRefreshSample": false
   },
   "explorationFilters": [],
-  "exploreUIParams": {},
-  "steps": [],
+  "origin": "PREPARE_RECIPE",
+  "exploreUIParams": {
+    "autoRefresh": true
+  },
+  "steps": [
+    {
+      "preview": false,
+      "metaType": "PROCESSOR",
+      "disabled": false,
+      "type": "FillEmptyWithComputedValue",
+      "params": {
+        "mode": "MEAN",
+        "columns": [
+          "DEBTINC",
+          "MORTDUE",
+          "VALUE"
+        ],
+        "appliesTo": "COLUMNS"
+      },
+      "alwaysShowComment": false
+    },
+    {
+      "preview": false,
+      "metaType": "PROCESSOR",
+      "disabled": false,
+      "type": "FillEmptyWithComputedValue",
+      "params": {
+        "mode": "MEDIAN",
+        "columns": [
+          "CLNO",
+          "NINQ",
+          "DELINQ",
+          "DEROG",
+          "YOJ"
+        ],
+        "appliesTo": "COLUMNS"
+      },
+      "alwaysShowComment": false
+    }
+  ],
   "maxProcessedMemTableBytes": -1,
   "previewMode": "ALL_ROWS",
   "vizSampling": {
@@ -35,7 +73,21 @@
     "autoRefreshSample": false
   },
   "analysisColumnData": {},
-  "columnWidthsByName": {},
+  "columnWidthsByName": {
+    "DEBTINC": 100,
+    "BAD": 100,
+    "CLAGE": 100,
+    "MORTDUE": 100,
+    "VALUE": 100,
+    "LOAN": 100,
+    "YOJ": 100,
+    "CLNO": 100,
+    "DEROG": 100,
+    "DELINQ": 100,
+    "NINQ": 100,
+    "REASON": 100,
+    "JOB": 100
+  },
   "sorting": [],
   "globalSearchQuery": "",
   "coloring": {
