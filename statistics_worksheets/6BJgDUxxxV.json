@@ -29,16 +29,71 @@
     "type": "worksheet_root",
     "confidenceLevel": 0.95,
     "showConfidenceInterval": false,
-    "cards": [],
+    "cards": [
+      {
+        "type": "correlation_matrix",
+        "heatmapParams": {
+          "showValues": true,
+          "showColors": true,
+          "showAbsValues": false,
+          "threshold": 0.0,
+          "filterVariablesWithoutValues": false
+        },
+        "metric": "PEARSON",
+        "columns": [
+          {
+            "name": "LOAN",
+            "type": "CONTINUOUS"
+          },
+          {
+            "name": "MORTDUE",
+            "type": "CONTINUOUS"
+          },
+          {
+            "name": "VALUE",
+            "type": "CONTINUOUS"
+          },
+          {
+            "name": "YOJ",
+            "type": "CONTINUOUS"
+          },
+          {
+            "name": "DEROG",
+            "type": "CONTINUOUS"
+          },
+          {
+            "name": "DELINQ",
+            "type": "CONTINUOUS"
+          },
+          {
+            "name": "CLAGE",
+            "type": "CONTINUOUS"
+          },
+          {
+            "name": "NINQ",
+            "type": "CONTINUOUS"
+          },
+          {
+            "name": "CLNO",
+            "type": "CONTINUOUS"
+          },
+          {
+            "name": "DEBTINC",
+            "type": "CONTINUOUS"
+          }
+        ],
+        "id": "iJooUGz"
+      }
+    ],
     "id": "0SmNhFK"
   },
   "name": "Worksheet",
   "versionTag": {
-    "versionNumber": 0,
+    "versionNumber": 1,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1633223668200
+    "lastModifiedOn": 1633223729175
   },
   "creationTag": {
     "versionNumber": 0,
