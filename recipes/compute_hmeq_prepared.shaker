@@ -65,6 +65,21 @@
         "appliesTo": "COLUMNS"
       },
       "alwaysShowComment": false
+    },
+    {
+      "preview": true,
+      "metaType": "PROCESSOR",
+      "disabled": false,
+      "type": "ColumnsSelector",
+      "params": {
+        "columns": [
+          "REASON",
+          "JOB"
+        ],
+        "keep": false,
+        "appliesTo": "COLUMNS"
+      },
+      "alwaysShowComment": false
     }
   ],
   "maxProcessedMemTableBytes": -1,
@@ -83,6 +98,7 @@
     "LOAN": 100,
     "YOJ": 100,
     "CLNO": 100,
+    "REASON, JOB": 100,
     "DEROG": 100,
     "DELINQ": 100,
     "NINQ": 100,
