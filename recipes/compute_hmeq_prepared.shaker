@@ -35,6 +35,21 @@
       "preview": false,
       "metaType": "PROCESSOR",
       "disabled": false,
+      "type": "ColumnsSelector",
+      "params": {
+        "columns": [
+          "REASON",
+          "JOB"
+        ],
+        "keep": false,
+        "appliesTo": "COLUMNS"
+      },
+      "alwaysShowComment": false
+    },
+    {
+      "preview": false,
+      "metaType": "PROCESSOR",
+      "disabled": false,
       "type": "FillEmptyWithComputedValue",
       "params": {
         "mode": "MEAN",
@@ -62,21 +77,6 @@
           "DEROG",
           "YOJ"
         ],
-        "appliesTo": "COLUMNS"
-      },
-      "alwaysShowComment": false
-    },
-    {
-      "preview": true,
-      "metaType": "PROCESSOR",
-      "disabled": false,
-      "type": "ColumnsSelector",
-      "params": {
-        "columns": [
-          "REASON",
-          "JOB"
-        ],
-        "keep": false,
         "appliesTo": "COLUMNS"
       },
       "alwaysShowComment": false
