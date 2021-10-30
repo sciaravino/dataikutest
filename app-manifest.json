@@ -1,7 +1,7 @@
 {
   "projectExportManifest": {
-    "exportUploads": false,
-    "exportAllInputDatasets": false,
+    "exportUploads": true,
+    "exportAllInputDatasets": true,
     "exportAllDatasets": false,
     "exportManagedFS": false,
     "exportAnalysisModels": false,
@@ -17,7 +17,7 @@
     "exportGitRepository": false
   },
   "instanceFeatures": {
-    "showFlowNavLink": false,
+    "showFlowNavLink": true,
     "showLabNavLink": false,
     "showCodeNavLink": false,
     "showVersionControlFeatures": false
