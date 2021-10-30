@@ -26,8 +26,39 @@
     "autoRefreshSample": false
   },
   "explorationFilters": [],
-  "exploreUIParams": {},
-  "steps": [],
+  "origin": "PREPARE_RECIPE",
+  "exploreUIParams": {
+    "autoRefresh": true
+  },
+  "steps": [
+    {
+      "preview": false,
+      "metaType": "PROCESSOR",
+      "disabled": false,
+      "type": "FindReplace",
+      "params": {
+        "output": "",
+        "mapping": [
+          {
+            "from": "telephone",
+            "to": "app"
+          },
+          {
+            "from": "cellular",
+            "to": "website"
+          }
+        ],
+        "normalization": "EXACT",
+        "columns": [
+          "contact"
+        ],
+        "appliesTo": "SINGLE_COLUMN",
+        "stopAfterFirstMatch": false,
+        "matching": "FULL_STRING"
+      },
+      "alwaysShowComment": false
+    }
+  ],
   "maxProcessedMemTableBytes": -1,
   "previewMode": "ALL_ROWS",
   "vizSampling": {
@@ -35,7 +66,29 @@
     "autoRefreshSample": false
   },
   "analysisColumnData": {},
-  "columnWidthsByName": {},
+  "columnWidthsByName": {
+    "cons.conf.idx": 113,
+    "loan": 100,
+    "education": 148,
+    "previous": 100,
+    "housing": 100,
+    "cons.price.idx": 120,
+    "poutcome": 106,
+    "euribor3m": 100,
+    "duration": 100,
+    "marital": 100,
+    "default": 100,
+    "month": 100,
+    "contact": 100,
+    "campaign": 100,
+    "y": 100,
+    "job": 106,
+    "emp.var.rate": 105,
+    "age": 100,
+    "pdays": 100,
+    "day_of_week": 100,
+    "nr.employed": 100
+  },
   "sorting": [],
   "globalSearchQuery": "",
   "coloring": {
