@@ -28,11 +28,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 0,
+    "versionNumber": 1,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1635612476297
+    "lastModifiedOn": 1635613197297
   },
   "creationTag": {
     "versionNumber": 0,
@@ -132,10 +132,6 @@
       },
       {
         "name": "euribor3m",
-        "type": "double"
-      },
-      {
-        "name": "nr.employed",
         "type": "double"
       },
       {
