@@ -126,6 +126,7 @@
   },
   "name": "Test1",
   "projectStatus": "Sandbox",
+  "imgColor": "#29af5d",
   "imgPattern": 8,
   "showInitials": false,
   "metrics": {
@@ -183,11 +184,11 @@
     }
   },
   "versionTag": {
-    "versionNumber": 6,
+    "versionNumber": 7,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1633226842908
+    "lastModifiedOn": 1635604991510
   },
   "creationTag": {
     "versionNumber": 0,
